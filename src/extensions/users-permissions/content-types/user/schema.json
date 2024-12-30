@@ -65,10 +65,10 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "order": {
+    "addresses": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::order.order",
+      "relation": "manyToMany",
+      "target": "api::address.address",
       "mappedBy": "users_permissions"
     }
   }

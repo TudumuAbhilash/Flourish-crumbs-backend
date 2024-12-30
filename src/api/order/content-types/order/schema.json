@@ -28,11 +28,10 @@
       "relation": "oneToMany",
       "target": "api::product.product"
     },
-    "users_permissions": {
+    "users_permission": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "plugin::users-permissions.user",
-      "inversedBy": "order"
+      "target": "plugin::users-permissions.user"
     }
   }
 }
